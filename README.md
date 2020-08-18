@@ -13,11 +13,11 @@ console.log('Good Morning :)')
 
 ## Trigger Usage Example
 
-```ts
-deno run ./usage-example.ts
+```sh
+deno run https://deno.land/x/sleep/usage-example.ts
 ```
 
-## Test
+## Trigger Test Execution
 
 ```sh
 
