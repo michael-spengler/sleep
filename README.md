@@ -3,11 +3,19 @@
 ## Usage Example
 
 ```ts
-import { sleep } from "https://deno.land/x/sleep";
+import { sleep } from "https://deno.land/x/sleep/mod.ts";
 
 console.log('I should sleep')
 await sleep(5)
 console.log('Good Morning :)')
+
+// Advanced Usage
+// import { sleepRandomAmountOfSeconds } from "https://deno.land/x/sleep/mod.ts";
+
+// console.log('I should sleep')
+// await sleepRandomAmountOfSeconds(2, 4, true)
+// console.log('Good Morning :)')
+
 
 ```
 
