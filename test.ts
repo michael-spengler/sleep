@@ -1,5 +1,5 @@
 import { fail } from "https://deno.land/std/testing/asserts.ts";
-import { sleep, sleepRandomAmountOfSeconds } from "https://deno.land/x/sleep.ts";
+import { sleep, sleepRandomAmountOfSeconds } from "https://deno.land/x/sleep/mod.ts";
 
 Deno.test("sleep for 2 seconds", async (): Promise<void> => {
 
