@@ -11,6 +11,12 @@ console.log('Good Morning :)')
 
 ```
 
+## Trigger Usage Example
+
+```ts
+deno run ./usage-example.ts
+```
+
 ## Test
 
 ```sh
