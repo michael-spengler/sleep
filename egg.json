@@ -1,0 +1,13 @@
+{
+  "name": "sleep",
+  "description": "sleep for some time",
+  "stable": true,
+  "files": [
+    "mod.ts",
+    "README.md",
+    "sleep.ts",
+    "test.ts",
+    "usage-example-advanced.ts",
+    "usage-example.ts"
+  ]
+}
