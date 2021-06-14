@@ -1,5 +1,5 @@
-import { fail } from "https://deno.land/std/testing/asserts.ts";
-import { sleep, sleepRandomAmountOfSeconds } from "https://deno.land/x/sleep/mod.ts";
+import { fail } from "https://deno.land/std@0.97.0/testing/asserts.ts";
+import { sleep, sleepRandomAmountOfSeconds } from "./sleep.ts";
 
 Deno.test("sleep for 2 seconds", async (): Promise<void> => {
 
@@ -15,7 +15,7 @@ Deno.test("sleep for 2 seconds", async (): Promise<void> => {
 Deno.test("sleep for random amount of seconds between 2 and 4 seconds", async (): Promise<void> => {
 
     const sleepStartAt = Date.now()
-    await sleepRandomAmountOfSeconds(2, 4, true)
+    await sleepRandomAmountOfSeconds(2, 4)
     const sleepEndAt = Date.now()
     const sleepDuration = sleepEndAt - sleepStartAt
     if (sleepDuration < 2000 || sleepDuration > 4100){
