@@ -1,6 +1,5 @@
-import { sleepRandomAmountOfSeconds } from "https://deno.land/x/sleep/mod.ts";
+import { sleepRandomAmountOfSeconds } from "./sleep.ts";
 
-console.log('I should sleep')
-await sleepRandomAmountOfSeconds(2, 4, true)
-console.log('Good Morning :)')
-
+console.log("I should sleep");
+await sleepRandomAmountOfSeconds(2, 4);
+console.log("Good Morning :)");
