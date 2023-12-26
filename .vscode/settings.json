@@ -1,12 +1,11 @@
 {
     "deno.enable": true,
     "deno.lint": true,
-    "deno.unstable": true,
     "editor.codeActionsOnSave": {
         "source.fixAll": true,
         "source.organizeImports": true
     },
-    "editor.defaultFormatter": "denoland.vscode-deno",
     "editor.formatOnSave": true,
-    "editor.formatOnPaste": false
+    "editor.formatOnPaste": false,
+    "typescript.format.semicolons": "remove"
 }
